@@ -103,39 +103,80 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2em;
+    font-size: .8em;
+    height: 100%;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  display: flex;
-  font-weight: 700;
-  justify-content: space-between;
+header {
+    background-color: #f16059;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 6em;
+    justify-content: left;
+    height: 160px;
+    padding: 60px 0 20px 20px;
+    width: 100%;
 }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  align-items: center;
-  color: #fff;
-  display: flex;
-  line-height: 1.5em;
-  font-size: 1.1em;
+main h2 {
+    font-size: 1.8em;
+    border-bottom: 3px solid white;
+    padding-bottom: 110px;
+}
+
+main {
   background-color: #f16059;
-  height: 300px;
-  text-align: center;
-  width: 30%;
-  justify-content: center;
+  color: white;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  font-size: 2em;  
+  align-items: center;
 }
 
-.div-2 {
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-items {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  background-color: #f16059;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#div-2 {
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 0 18px 0 18px;
+}
+
+footer {
+    background-color:#f16059;
+    border-top: 3px solid white;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+    height: 150px;
+    font-size: 1.6em;
+    width: 100%;
+}
+
+footer i {
+    padding: 40px 0 0 5px;
+    justify-content: space-between;
+    font-size: larger;
 }
 
 
